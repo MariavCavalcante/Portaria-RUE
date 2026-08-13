@@ -1,0 +1,9 @@
+LICENÇA INSTITUCIONAL — A DEFINIR
+
+Este repositório pertence à Secretaria de Estado da Saúde de Goiás (SES-GO).
+
+A licença formal de uso e distribuição do código-fonte deste painel deve ser
+definida e confirmada pela unidade responsável da SES-GO antes da publicação
+do repositório em ambiente institucional.
+
+Nenhuma licença de código aberto foi presumida ou aplicada nesta entrega.
