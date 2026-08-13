@@ -1,0 +1,14 @@
+Arquivo pendente.
+
+Este diretório deve receber o arquivo oficial do Brasão do Estado de Goiás,
+em formato PNG com fundo transparente, após validação de origem,
+integridade, qualidade e autorização de uso.
+
+Caminho esperado: /public/images/brasao-goias.png
+
+Após incluir o arquivo oficial, altere a constante ARQUIVO_DISPONIVEL para
+`true` em src/components/Header.tsx.
+
+Não utilize o link curto diretamente no código-fonte, nem versões
+redesenhadas, distorcidas, recoloridas, recortadas, inclinadas ou com
+efeitos aplicados ao brasão oficial.

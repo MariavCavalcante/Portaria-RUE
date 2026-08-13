@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  @apply bg-ses-neutro-50 text-ses-neutro-800 antialiased;
+}
+
+/* Foco visível consistente em todos os elementos interativos (WCAG 2.2 AA). */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #00509f;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.skip-link {
+  @apply sr-only;
+}
+
+.skip-link:focus {
+  @apply not-sr-only fixed left-2 top-2 z-[100] rounded-md bg-white px-4 py-2 text-ses-azul shadow-lg;
+}
+
+/* Alvos de toque adequados (mínimo 44x44px) para itens interativos compactos. */
+.alvo-toque {
+  min-height: 44px;
+  min-width: 44px;
+}
